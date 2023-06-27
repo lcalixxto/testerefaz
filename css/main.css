@@ -4258,7 +4258,7 @@ div.page-figure.in-content {
   .home-page-logo img {
     display: inline-block;
     width: auto;
-    height: 18px;
+    height: 60px;
   }
 
   /* line 758, ../sass/cospo/elements/_pages.scss */
@@ -9397,7 +9397,7 @@ h6 span {
 ----------------------------------------------------------------------*/
 /* line 3, ../sass/cospo/demos/_agency.scss */
 body.agency .main-overlay {
-  background-color: rgba(39, 40, 58, 0.85);
+  background-color: rgba(255, 255, 255, 0);
 }
 @media (min-width: 992px) {
   /* line 7, ../sass/cospo/demos/_agency.scss */
@@ -9412,12 +9412,12 @@ body.agency .main-overlay.hide-bg {
 }
 /* line 23, ../sass/cospo/demos/_agency.scss */
 body.agency .navigation button.navigation-btn[data-action="go-next-page"] svg path, body.agency .navigation button[data-action="go-next-page"].navigation-btn--show-message svg path {
-  fill: #6d789d;
+  fill: #114727;
 }
 /* line 29, ../sass/cospo/demos/_agency.scss */
 body.agency .navigation.open,
 body.agency .navigation .scales {
-  background-color: #6d789d !important;
+  background-color: #114727 !important;
 }
 /* line 35, ../sass/cospo/demos/_agency.scss */
 body.agency .navigation .widget-overlay-bottom, body.agency .navigation .widget-overlay-top {
