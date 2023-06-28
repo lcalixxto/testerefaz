@@ -2667,7 +2667,7 @@ html {
 /* line 45, ../sass/cospo/elements/_cospoGallery.scss */
 body.dark .gallery .insta-item a span,
 body.dark .gallery li a span {
-  color: #fff;
+  color: rgb(255, 255, 255, 0.0);
 }
 /* line 51, ../sass/cospo/elements/_cospoGallery.scss */
 body.dark .gallery-services {
@@ -2760,9 +2760,19 @@ body.dark .aside-menu.icons li a svg {
 .gallery li a:before {
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  background-color: #ffffff;
+  /*background-color: rgba(217, 10, 10, 0.9);*/
   /*background-color: #000;*/
 }
+
+.image-team {
+    
+}
+.image-team:hover {
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* line 147, ../sass/cospo/elements/_cospoGallery.scss */
 .gallery .insta-item a.loading .count-more,
 .gallery li a.loading .count-more {
