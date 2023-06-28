@@ -2760,7 +2760,7 @@ body.dark .aside-menu.icons li a svg {
 .gallery li a:before {
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  background-color: #060606;
+  background-color: #ffffff;
   /*background-color: #000;*/
 }
 /* line 147, ../sass/cospo/elements/_cospoGallery.scss */
@@ -2835,14 +2835,14 @@ body.dark .aside-menu.icons li a svg {
   -webkit-transition: background 0.2s, border 0.2s, color 0.2s;
   transition: background 0.2s, border 0.2s, color 0.2s;
   text-align: center;
-  border: 2px rgba(255, 255, 255, 0.9) solid;
+  border: 0px rgba(255, 255, 255, 0.0) solid;
   border-radius: 22px;
 }
 /* line 209, ../sass/cospo/elements/_cospoGallery.scss */
 .gallery .insta-item a span.count-current, .gallery .insta-item a span.count-more,
 .gallery li a span.count-current,
 .gallery li a span.count-more {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.0);
 }
 /* line 218, ../sass/cospo/elements/_cospoGallery.scss */
 .gallery .insta-item.show-remaning-el a span.count-more,
@@ -2892,16 +2892,16 @@ body.dark .aside-menu.icons li a svg {
   width: 33px;
   height: 36px;
   margin-right: 25px;
-  fill: #373737;
+  fill: #ffffff;
 }
 
 /* line 277, ../sass/cospo/elements/_cospoGallery.scss */
 section.cospo-page.current-page .gallery .insta-item.show-remaning-el a:hover span.count-more, section.current-page.sign-in-page .gallery .insta-item.show-remaning-el a:hover span.count-more,
 section.cospo-page.current-page .gallery li.show-remaning-el a:hover span.count-more,
 section.current-page.sign-in-page .gallery li.show-remaning-el a:hover span.count-more {
-  border-color: rgba(255, 255, 255, 0.9);
-  background: rgba(255, 255, 255, 0.9);
-  color: rgba(55, 55, 55, 0.9);
+  border-color: rgba(255, 255, 255, 0.0);
+  background: rgba(255, 255, 255, 0.0);
+  color: rgba(55, 55, 55, 0.0);
 }
 
 /* line 293, ../sass/cospo/elements/_cospoGallery.scss */
@@ -2955,7 +2955,7 @@ section.ajax-page .gallery li a:after {
   .cospo-gallery {
     margin: 0 -60px 20px;
     padding: 0;
-    background: rgba(8, 8, 8, 0.1);
+    background: rgba(255, 0, 0, 0.1);
   }
   /* line 360, ../sass/cospo/elements/_cospoGallery.scss */
   .cospo-gallery .aside-menu {
