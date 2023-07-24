@@ -2667,7 +2667,7 @@ html {
 /* line 45, ../sass/cospo/elements/_cospoGallery.scss */
 body.dark .gallery .insta-item a span,
 body.dark .gallery li a span {
-  color: rgb(255, 255, 255, 0.0);
+  color: rgba(255, 255, 255, 0);
 }
 /* line 51, ../sass/cospo/elements/_cospoGallery.scss */
 body.dark .gallery-services {
