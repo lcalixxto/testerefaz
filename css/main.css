@@ -2400,13 +2400,8 @@ html {
   .col-xs-4,
   .col-xs-5,
   .col-xs-6 {
-    padding-left: 17px;
-    padding-right: 17px;
+    
   }
-}
-
-.circle img {
-  border-radius: 50%;
 }
 /**
  * Style for desktop device
