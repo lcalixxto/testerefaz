@@ -2404,6 +2404,10 @@ html {
     padding-right: 17px;
   }
 }
+
+.circle img {
+  border-radius: 50%;
+}
 /**
  * Style for desktop device
  */
